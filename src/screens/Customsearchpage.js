@@ -51,7 +51,7 @@ const Customsearchpage = () => {
       {!data ? (
         <p>loading</p>
       ) : data.length === 0 ? (
-        <p id="error"> Sorry, we couldn't find any results for your search.</p>
+        <p id="error"> Sorry, we couldn't find any results for your search.</p> // Error handling if a usera enter wrong word
       ) : (
         <>
           <div className="box-1">

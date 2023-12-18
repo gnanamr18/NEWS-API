@@ -26,11 +26,6 @@ const Search = () => {
   }
 
   useEffect(() => {
-    // Cleanup function to reset input value when the component unmounts
-    setinputvalue(" ");
-  }, []);
-
-  useEffect(() => {
     if (finalvalue) {
       console.log(finalvalue);
       navigate("/custompage", { state: finalvalue });
