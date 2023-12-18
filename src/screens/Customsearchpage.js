@@ -11,7 +11,7 @@ const Customsearchpage = () => {
   async function fetchArticles() {
     try {
       const response = await fetch(
-        `https://newsapi.org/v2/everything?q=${state}&apiKey=92950858d255430788197912e5b80db4`
+        `https://newsapi.org/v2/everything?q=${state}&apiKey=a54ce2b3323144f78df807b94b02041f`
       );
       const customArticles = await response.json();
       console.log(customArticles);

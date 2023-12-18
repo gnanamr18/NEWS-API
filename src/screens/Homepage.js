@@ -11,7 +11,7 @@ const Homepage = () => {
   async function fetchHeadlines() {
     try {
       const response = await fetch(
-        "https://newsapi.org/v2/top-headlines?country=in&apiKey=92950858d255430788197912e5b80db4"
+        "https://newsapi.org/v2/top-headlines?country=in&apiKey=a54ce2b3323144f78df807b94b02041f"
       );
       const articles = await response.json();
       if (Array.isArray(articles.articles)) {

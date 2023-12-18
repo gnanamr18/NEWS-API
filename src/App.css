@@ -207,6 +207,7 @@ body hr {
     flex-direction: row;
     align-items: center;
     margin-top: 3rem;
+    margin-left: 2.8rem;
 
     width: 100%; /* Use full width */
   }
@@ -236,7 +237,7 @@ body hr {
     display: flex;
     flex-direction: column;
     width: 100%; /* Use full width */
-    margin-top: 75rem; /* Adjust margin top */
+    margin-top: 72rem; /* Adjust margin top */
     justify-content: center;
     align-items: center; /* Center items */
   }
